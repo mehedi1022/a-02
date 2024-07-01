@@ -92,6 +92,8 @@ header .container nav .navbar-content>ul a .home-imp {
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../images/travel.png);
     border-radius: 16px;
     padding: 1px 0px;
+ /* background-size: 50px; */
+   /* border: 2px solid red; */
    
 
     text-align: center;
@@ -115,10 +117,11 @@ header .container nav .navbar-content>ul a .home-imp {
     font-weight: 400;
     line-height: 26px;
     /* 162.5% */
+   
 }
 
 .travel .travel-main .travel-content form {
-    margin: 48px 185px 106px;
+    margin: 47px 185px 100px;
     padding: 16px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
@@ -127,8 +130,8 @@ header .container nav .navbar-content>ul a .home-imp {
 }
 
 .travel .travel-main .travel-content form input {
-    width: 140px;
-    padding: 16px;
+    width: 130px;
+    padding: 20px 16px;
     border-radius: 8px;
     background: #FFF;
     border: none;
@@ -136,14 +139,14 @@ header .container nav .navbar-content>ul a .home-imp {
     font-weight: 400;
     gap: 15px;
     /* margin-left: 50px; */
-    margin: 0 10px;
+    margin: 0 14px;
     outline: none;
 
 }
 
 .travel .travel-main .travel-content form select {
     width: 160px;
-    padding: 16px;
+    padding: 20px 16px;
     border-radius: 8px;
     background: #FFF;
     border: none;
@@ -151,7 +154,7 @@ header .container nav .navbar-content>ul a .home-imp {
     font-weight: 600;
     gap: 10px;
     /* margin-left: 50px; */
-    margin: 0 15px;
+    margin: 0 14px;
     outline: none;
 
 
@@ -160,8 +163,8 @@ header .container nav .navbar-content>ul a .home-imp {
 .travel .travel-main .travel-content form button {
     border-radius: 8px;
     background: #FF5400;
-    padding: 14px;
-    width: 150px;
+    padding: 18px 14px;
+    width: 160px;
 
 
     color: #FFF;
@@ -171,7 +174,7 @@ header .container nav .navbar-content>ul a .home-imp {
     font-weight: 700;
     line-height: normal;
     border: none;
-    margin: 0 15px;
+    margin: 0 14px;
     /* display: flex; */
 }
 
@@ -192,7 +195,10 @@ header .container nav .navbar-content>ul a .home-imp {
 .popular .popular-main .popular-text .popular-para {
     margin-bottom: 32px;
     color: rgba(19, 19, 24, 0.70);
-
+    flex-direction: column;
+    display: flex;
+    gap: 24px;
+    width: 525px;
 
 }
 
@@ -221,14 +227,7 @@ header .container nav .navbar-content>ul a .home-imp {
     padding: 14px;
 }
 
-.popular .popular-main .popular-text .popular-para {
-    flex-direction: column;
-    display: flex;
-    gap: 24px;
-    width: 525px;
 
-
-}
 
 .tp-1 {
     width: 577px;
@@ -263,7 +262,7 @@ header .container nav .navbar-content>ul a .home-imp {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    margin-bottom: 24px;
+   
 }
 
 .choose .choose-main .choose-text p {
@@ -276,7 +275,8 @@ header .container nav .navbar-content>ul a .home-imp {
     font-weight: 400;
     line-height: 26px;
     /* 162.5% */
-    margin-bottom: 48px;
+   
+    margin: 24px 250px 48px;
 
 }
 
@@ -296,21 +296,11 @@ header .container nav .navbar-content>ul a .home-imp {
 
 }
 
-/* .choose-center {
-    color: #FFF;
-    text-align: center;
-    font-size: 28px;
-    font-weight: 800;
 
-    position: relative;
-    top: -200px;
-    left: 0px;
-} */
 
 .choose .choose-main .choose-img .choose-img-1 {
     grid-column: 1/span 6;
     grid-row: 1/span 1;
-    font-size: 50px;
 }
 
 .choose .choose-main .choose-img .choose-img-2 {
@@ -458,7 +448,7 @@ header .container nav .navbar-content>ul a .home-imp {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
 }
 
 .why .container .why-text p {
@@ -470,7 +460,8 @@ header .container nav .navbar-content>ul a .home-imp {
     font-weight: 400;
     line-height: 26px;
     /* 162.5% */
-    margin-bottom: 48px;
+   
+    margin: 24px 200px 48px;
 }
 
 .why .container .why-content {
@@ -541,7 +532,7 @@ header .container nav .navbar-content>ul a .home-imp {
     font-weight: 800;
     line-height: normal;
     width: 500px;
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
 }
 
 .sajek .sajek-main .sajek-text{
@@ -561,7 +552,8 @@ header .container nav .navbar-content>ul a .home-imp {
     font-weight: 400;
     line-height: 26px; /* 162.5% */
     width: 500px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+    margin: 24px 0px 48px;
    
 }
 .sajek .sajek-main .sajek-text button{
@@ -591,7 +583,7 @@ header .container nav .navbar-content>ul a .home-imp {
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(3,1fr);
-    gap: 10px;
+    gap: 24px;
     width: 500px;
 }
 .sajek .sajek-img img{
