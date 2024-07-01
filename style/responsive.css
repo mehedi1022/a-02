@@ -1,0 +1,85 @@
+@media only screen and (max-width:600px) {
+    /* navbar section  */
+    header .container nav .navbar-content >ul{
+        display: none;
+       
+       
+        }
+        header .container nav .navbar-content .bar-icon{
+            width: 24px;
+            display: block;
+           
+            }
+    /* travel section */
+
+    .travel .travel-main{
+       object-fit: cover;
+       /* background: cover; */
+    }
+
+    .travel .travel-main .travel-text h1 {
+      
+        font-size: 22px;
+       
+    }
+    .travel .travel-main .travel-text p {
+      
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .travel .travel-main .travel-content form {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 335px;
+        padding: 16px;
+        /* align-items: flex-start; */
+        /* margin-left: 0px; */
+        /* background: no-repeat; */
+       
+        
+       
+    }
+    /* popular section */
+    .popular .popular-main,.sajek .sajek-main, .newsletter .newsletter-main {
+      
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .travel, .popular, .choose, .why, .sajek, .newsletter {
+        margin: 24px 0px;
+    }
+    
+        
+
+    /* choose section */
+    /* why section */
+    /* sajeck section  */
+    .sajek .sajek-main .sajek-text .sajek-text-img img{
+        
+       width: 100%;
+    }
+    .sajek .sajek-img{
+       
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5,1fr);
+        /* flex-wrap: wrap; */
+        /* justify-content: center; */
+        width: 100%;
+    }
+    /* newsletter section */
+   
+
+    /* footer section  */
+    footer .footer-main .footer-text{
+        margin: 16px 50px;
+    }
+    footer .footer-main hr{
+        margin: 24px 0px;
+    }
+    footer .footer-main{
+        padding: 32px 0px;
+    
+    }
+}
